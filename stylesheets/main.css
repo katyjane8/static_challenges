@@ -1,0 +1,23 @@
+.container {
+  display: inline-grid;
+  height: 100%;
+  width: 100%;
+}
+#left {
+      width: 200px;
+      float: left;
+    }
+#right {
+      margin-left: 600px;
+      /* Change this to whatever the width of your left column is*/
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      color: white;
+      font: bold 18px Helvetica, Sans-Serif;
+      background: rgb(0, 0, 0); /* fallback color*/
+      opacity: 0.6;
+    }
+.clear {
+      clear: both;
+    }
